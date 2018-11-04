@@ -1,0 +1,22 @@
+{
+  "name": "writesurvey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "google-auth-library": "^2.0.1",
+    "google-spreadsheet": "^2.0.6",
+    "googleapis": "^34.0.0",
+    "micro": "latest",
+    "micro-cors": "^0.1.1",
+    "nodemon": "^1.18.5"
+  },
+  "author": "",
+  "license": "ISC"
+}
